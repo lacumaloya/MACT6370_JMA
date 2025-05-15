@@ -1,12 +1,13 @@
 # MACT6370_JMA
 
-This repository contains my work for MACT6370.
+This repository contains my work for MACT6370 at SMU.
 
 ## Overview
 
-This README file was created to test and fix git functionality.
+This is a general repository for coursework, assignments, and projects for MACT6370.
 
-## Usage
+## Contents
 
-- Make sure to open this repository in VS Code by selecting the correct folder: `/Users/jasmineaguilar/MACT6370_JMA`
-- When using git in VS Code, ensure you're in the root folder that contains the `.git` directory 
+- `notes`: General notes for the course
+- `.gitignore`: Git configuration to exclude unnecessary files
+- `LICENSE`: License information for this repository
