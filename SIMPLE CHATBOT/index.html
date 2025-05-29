@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Simple Chatbot</title>
+        <title>Enhanced Chatbot</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
     <body>
+        <div id="theme-switcher">
+            <i class="fas fa-moon"></i>
+        </div>
+        
         <div id="chat-container">
-        <div id="chat-box"> </div>
-
-        <input type="text" id="user-input" placeholder="Ask a qustion!">
-        <button id="send-button">Send</button>
+            <div id="character-selector">
+                <h2>Choose Your Chatbot Character</h2>
+                <div class="character-options">
+                    <button class="character-btn" data-character="jim">The Mask</button>
+                    <button class="character-btn" data-character="sherlock">Sherlock Holmes</button>
+                    <button class="character-btn" data-character="pirate">Jack Sparrow</button>
+                </div>
+            </div>
+            
+            <div id="chat-box"></div>
+            
+            <div id="input-container">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+        
         <script src="script.js"></script>
     </body>
 </html>
